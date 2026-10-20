@@ -1,0 +1,29 @@
+{
+  "name": "tp-06-salas-modular",
+  "version": "1.0.0",
+  "description": "Reservas de salas refactorizadas en módulos Express",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "format": "prettier --write src",
+    "format:check": "prettier --check src",
+    "lint": "eslint src",
+    "check": "npm run format:check && npm run lint"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.22.1",
+    "express-ejs-layouts": "^2.5.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "eslint": "^9.36.0",
+    "globals": "^16.4.0",
+    "prettier": "^3.6.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
